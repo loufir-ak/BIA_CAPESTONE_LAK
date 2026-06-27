@@ -1,0 +1,18 @@
+# Core ML / embeddings
+sentence-transformers>=2.2.0
+
+# Vector index
+faiss-cpu>=1.7.4
+
+# PDF parsing (primary + fallback)
+PyPDF2>=3.0.0
+pdfminer.six>=20221105
+
+# Numerics (usually a transitive dep, pinned for clarity)
+numpy>=1.24.0
+
+# UI
+streamlit>=1.28.0
+
+# Optional LLM synthesis (set OPENAI_API_KEY to activate)
+openai>=1.0.0
